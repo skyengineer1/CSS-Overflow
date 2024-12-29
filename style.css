@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+div.visible {
+    border: 1px solid black;
+    background-color: tomato;
+    width: 200px;
+    height: 65px;
+    overflow: visible;
+}
+
+article.visible {
+    margin-bottom: 100px;
+}
+
+div.hidden {
+    border: 1px solid black;
+    background-color: tomato;
+    width: 200px;
+    height: 65px;
+    overflow: hidden;
+}
+
+article.hidden {
+    margin-bottom: 100px;
+}
+
+div.scroll {
+    border: 1px solid black;
+    background-color: tomato;
+    overflow: scroll;
+    width: 200px;
+    height: 65px;
+}
+
+article.scroll {
+    margin-bottom: 100px;
+}
+
+div.auto {
+    border: 1px solid black;
+    background-color: tomato;
+    width: 200px;
+    height: 65px;
+    overflow: auto;
+}
+
+article.auto {
+    margin-bottom: 100px;
+}
+
+div.overflow-x-y {
+    border: 1px solid black;
+    background-color: tomato;
+    width: 200px;
+    height: 65px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
